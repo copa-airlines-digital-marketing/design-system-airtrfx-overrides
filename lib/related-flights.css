@@ -1,0 +1,7 @@
+.RelatedRoutes a {
+  @apply text-primary-light;
+}
+
+.RelatedRoutes > div > div > div:last-child button {
+  @apply rounded-full border-primary text-primary outline-1 outline-primary outline-offset-2 text-body-2 px-16 py-[10px] square-auto font-sans font-body-medium hover:bg-primary hover:text-grey-0 active:bg-primary-ultradark active:border-primary-ultradark active:outline  focus:text-grey-0 focus:outline focus:bg-primary disabled:text-grey-500 disabled:border-grey-500 disabled:bg-grey-200 disabled:cursor-not-allowed transition-colors;
+}

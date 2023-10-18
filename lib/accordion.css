@@ -1,0 +1,32 @@
+#accordion > div {
+  @apply outline-none border-0 px-0 py-0 rounded-none my-8 shadow-none overflow-visible;
+}
+
+#accordion > div button {
+  border: solid;
+  @apply border-0 border-b border-grey-200 h-auto p-24 font-heading font-heading-bold text-20/32 text-primary hover:bg-grey-0 hover:border-primary justify-between hover:text-primary active:bg-grey-75 transition-colors;
+}
+
+#accordion > div button::after {
+  @apply content-accordion block square-24 transition-transform duration-300;
+}
+
+#accordion > div button[aria-selected="true"]::after {
+  @apply rotate-180;
+}
+
+#accordion > div i {
+  @apply hidden;
+}
+
+#accordion > div button + div {
+  @apply !p-24;
+}
+
+#accordion [data-test="CountryLink"] {
+  @apply text-h4 font-sans text-grey-600 font-body-semibold hover:underline;
+}
+
+#accordion [data-test="CityLink"] {
+  @apply text-body-2 font-sans text-primary-light;
+}

@@ -1,0 +1,54 @@
+/** No cambiar este import */
+@import "./tailwind.css";
+
+/** Agregar imports a partir de aqui */
+
+/** Booking form */
+@import "../lib/booking-form.css";
+
+/** Page Title */
+@import "../lib/headings.css";
+
+/** Histogram */
+@import "../lib/histogram.css";
+
+/** Vertical Grid Module */
+
+/** Grid Module */
+@import "../lib/grid-modules.css";
+
+/** Breadcrums */
+@import "../lib/breadcrums.css";
+
+/** Accordion */
+@import "../lib/accordion.css";
+
+/** Fare Table */
+
+/** Footer */
+@import "../lib/footer.css";
+
+/** Header */
+@import "../lib/header.css";
+
+/** Related flights */
+@import "../lib/related-flights.css";
+
+/** Weather */
+@import "../lib/weather.css";
+
+/** Container */
+
+
+/**Filter icons**/
+@import "../lib/filter-icons.css";
+
+/**Destinations Content Section*/
+@import "../lib/destinations-section.css";
+
+
+/**Booking Panel new additions*/
+@import "../lib/booking-panel.css";
+
+/**modal box
+@import "../lib/modal-box.css";*/

@@ -1,0 +1,37 @@
+#__next .header__main-section,
+#__next .header__main-section button + div,
+#__next .header__main-section .header__burguer-menu-sidebar {
+  @apply bg-primary;
+}
+
+#__next .header__main-section button,
+#__next .header__main-section a {
+  @apply text-grey-0 font-sans;
+}
+#__next .header__main-section .header__main-section-body > div:last-child>div>button{
+  @apply normal-case;
+}
+
+/*fix for storefreont selector*/
+#__next .header > div > div > div > div:first-child > button{
+@apply grid gap-8 grid-cols-[auto_auto_auto];
+}
+
+#__next .header > div > div > div > div:first-child > button > span:first-child{
+   @apply col-[1];
+}
+
+#__next .header > div > div > div > div:first-child > button > span:nth-child(2){
+@apply col-[2];
+}
+
+#__next .header > div > div > div > div:first-child > button > i:last-child{
+   @apply col-[3] pl-8 right-auto;
+
+}
+
+header{
+
+@apply border-b border-b-[#5274BF];
+
+}

@@ -1,0 +1,160 @@
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare {
+    @apply !bg-primary;
+}
+
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .fare-slider.base-slider .price li.deal-item:not(.is-empty-fare):not(.watching-fare) .card-body-deal:hover {
+    @apply !bg-primary-ultradark;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare .card-body-deal .histogram-body-container .middle-section .origin-container .fare-atom-price span.fare-atom-price-currency {
+    @apply font-heading !font-heading-bold text-24/32;
+
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item .card-body-deal .histogram-body-container .middle-section .origin-container .fare-atom-price span.fare-atom-price-currency {
+    @apply font-heading !font-heading-bold text-24/32;
+
+}
+
+
+body .FareMonthlyHistogram .histogram-body-container {
+    @apply !grid !grid-rows-[32px_45px_48px]
+}
+
+body .FareMonthlyHistogram .histogram-body-container>div:nth-child(1) {
+    @apply !grid !grid-rows-[25px_32px_42px];
+}
+
+body .FareMonthlyHistogram .top-section {
+    @apply row-[1];
+}
+
+body .FareMonthlyHistogram .top-section span {
+    @apply !font-heading-bold !font-heading text-18/24;
+
+}
+
+body .FareMonthlyHistogram .middle-section {
+    @apply row-[3];
+}
+
+body .FareMonthlyHistogram .viewed-container {
+    @apply hidden;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .histo-base .fare-slider.base-slider li .card-body-deal .histogram-body-container .foot-section .foot-container {
+    @apply !pt-[2px];
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .histo-base .fare-slider.base-slider li .card-body-deal .histogram-body-container .foot-section .foot-container {
+    @apply !pt-[2px];
+}
+
+body .FareMonthlyHistogram .foot-section .foot-container:nth-child(2) {
+    @apply !grid !grid-rows-[auto_40px_33px] items-end
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare .card-body-deal .histogram-body-container .middle-section .origin-container .destination-container {
+    @apply text-14/20 font-heading-normal;
+}
+
+/*Remove separator*/
+body .FareMonthlyHistogram .deal-atom-journey-info-separator {
+    @apply !hidden;
+}
+
+
+/*Price settings*/
+
+
+/*currency */
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare .card-body-deal .histogram-body-container .middle-section .origin-container .fare-atom-price span.fare-atom-price-currency {
+    @apply !text-20/32 !font-heading-bold;
+
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item .card-body-deal .histogram-body-container .fare-atom-price span {
+    @apply !font-heading text-primary-light;
+}
+
+/*Price amount*/
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare .card-body-deal .histogram-body-container .middle-section .origin-container .fare-atom-price span.fare-atom-price-total-price {
+    @apply !text-24/32 !font-heading-bold !font-heading;
+}
+
+
+/*Asterisk*/
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare .card-body-deal .histogram-body-container .middle-section .origin-container .fare-atom-price sup.fare-atom-price-disclaimer-indicator {
+    @apply !text-24/32 !font-heading-bold;
+}
+
+
+/*Journey Type*/
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare .card-body-deal .histogram-body-container .foot-section .foot-container span.deal-atom-journey-type {
+    @apply !text-12/16 !font-heading-normal row-[3];
+
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .slick-slider .slick-list .slick-slide .deal-item .card-body-deal .histogram-body-container .foot-section .foot-container .deal-atom-journey-type {
+    @apply !text-12/16 !font-heading-normal row-[3];
+}
+
+/* Main title and from*/
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .search-container .destination-selector-base .text-destination {
+    @apply text-primary font-heading !font-heading-bold;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram--mobile .histo-base .search-container .destination-selector-base-mobile .text-destination {
+    @apply !text-primary !font-heading !font-heading-bold;
+}
+
+
+
+/* Histogram bars*/
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .histo-base .deal-chart-base .chart-container .bar-charts .chart-bar button.color.color-min {
+    @apply bg-primary;
+}
+
+body .FareMonthlyHistogram[data-em-module-id="em-cmp-lib-prices"] .histo-base .deal-chart-base .chart-container .bar-charts .chart-bar button.color.color-min:hover {
+    @apply !bg-primary-ultradark;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .deal-chart-base .chart-container .bar-charts .chart-bar .color {
+    @apply bg-grey-100;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .deal-chart-base .chart-container .bar-charts .chart-bar .color:hover {
+    @apply !bg-primary-ultradark;
+}
+
+
+/*Arrows*/
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .fare-slider.base-slider button.slick-arrow.slick-next:before {
+    @apply text-primary;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .fare-slider.base-slider button.slick-arrow.slick-prev:before {
+    @apply text-primary;
+}
+
+
+/*Calendar day text*/
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram .histo-base .deal-chart-base .chart-container .bar-charts .chart-bar .vertical-line div {
+    @apply !text-primary !uppercase !font-heading;
+}
+
+body .FareMonthlyHistogram [data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram--mobile .histo-base .deal-chart-base-mobile .chart-container-mobile .chart-base-bar .load-more {
+    @apply !rounded-full;
+}
+
+
+[data-em-module-id="em-cmp-lib-prices"] .fare-monthly--histogram--mobile .histo-base .slick-slider .slick-list .slick-slide .deal-item.watching-fare {
+    @apply !bg-primary;
+}
+
+
+body .FareMonthlyHistogram [data-test="last-seen"] {
+    @apply hidden;
+}

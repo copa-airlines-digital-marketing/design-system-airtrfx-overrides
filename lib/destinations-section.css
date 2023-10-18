@@ -1,0 +1,94 @@
+.LocationContent>div:last-child>div>h2 {
+    @apply hidden;
+
+}
+
+.copalib-cover-title {
+    @apply bottom-0 bg-grey-75 bg-opacity-90;
+}
+
+.copalib-cover-title h1 {
+    @apply text-primary font-heading font-heading-medium !text-display-normal-lg !py-16;
+
+}
+
+.LocationContent h2 {
+    @apply !pb-16;
+}
+
+.LocationContent h2 {
+    @apply text-primary font-heading font-heading-normal !text-display-normal-sm !py-16;
+
+}
+
+.LocationContent .px-3 {
+    @apply !px-0 py-0;
+}
+
+body .carrusel-articulo-lenyenda h3 {
+    @apply !font-heading-medium;
+}
+
+
+.copalib-cover-title>div>div:last-child>span:first-child {
+    @apply !bg-transparent !text-primary;
+}
+
+.copalib-cover-title>div>div:last-child>span:last-child {
+    @apply !bg-transparent !text-primary;
+}
+
+.copalib-cover-title-social.d-flex {
+    @apply !hidden;
+}
+
+.copalib-destfacts {
+    @apply bg-grey-100 !rounded-b-2xl;
+}
+
+.copalib-destfacts-header {
+    @apply bg-primary rounded-t-2xl;
+
+}
+
+.copalib-destfacts-header .arrow-down {
+    @apply border-t-primary border-t-[12px] border-solid;
+}
+
+.carrusel-articulo.activo .carrusel-articulo-imagen,
+.carrusel-articulo-imagen {
+    @apply rounded-2xl;
+}
+
+.carrusel-articulo.activo .carrusel-articulo-lenyenda {
+    @apply rounded-b-2xl;
+}
+
+.copalib-itemgrid-item .item-img {
+    @apply relative;
+}
+
+.carrusel-indicadores li::marker {
+    @apply hidden;
+}
+
+/*PRevious copa lib styles */
+.copalib-row {
+    @apply my-32;
+}
+
+
+.copalib-row.imgright{
+   @apply !flex-row-reverse;
+}
+
+.at-svc-facebook .at-icon-facebook {
+    @apply !fill-primary;
+
+}
+
+.at-svc-twitter .at-icon-twitter {
+    @apply !fill-primary;
+}
+
+

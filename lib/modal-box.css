@@ -1,0 +1,178 @@
+/*Removes Blur*/
+.css-1err5f3 {
+    @apply !backdrop-filter-none;
+}
+
+/*Content Box settings*/
+.css-3wdbut {
+    @apply my-0 mx-16 pt-64 pr-40 pl-88 pb-24 w-auto fixed top-1/2 -translate-y-1/2 overflow-visible !rounded-lg !gap-16;
+}
+
+.css-3wdbut>div:last-child>div:first-child {
+    padding: 0 !important;
+    /*removes padding from fields */
+}
+
+
+/* intro title of modal box*/
+.css-9788kg {
+    @apply !p-0;
+    /* intro title div*/
+}
+
+/* intro title styles*/
+.css-mairgu {
+    @apply !font-heading-bold !text-32/40 !text-primary;
+}
+
+
+
+/*journey type, cupon and passengers selectors*/
+.css-1ts1fo6,
+.css-fu4s8y {
+    @apply !border-grey-300 !text-grey-500;
+}
+
+.css-1ts1fo6:hover,
+.css-fu4s8y:hover {
+    @apply !border-primary-light !shadow-none;
+
+}
+
+.css-1ts1fo6:focus,
+.css-fu4s8y:focus-within {
+    @apply !border-primary !shadow-none;
+
+}
+
+/*OD selectors*/
+.css-10ffrec {
+    @apply !border-none;
+}
+
+.css-10ffrec>div:first-child>div:first-child>div:first-child {
+    @apply grid grid-rows-1 grid-cols-1 gap-8 justify-start;
+}
+
+.css-3wdbut>div:last-child>div:first-child {
+    @apply gap-24;
+}
+
+/*Spacing between From and To fields*/
+.css-3wdbut>div:last-child>div:first-child>div:first-child {
+    @apply gap-24;
+}
+
+/*Spacing between OD fields and dates picker*/
+.css-3wdbut>div:last-child {
+    @apply !gap-56;
+}
+
+/*removes icon from field*/
+.css-10ffrec>div:first-child> :last-child {
+    @apply !hidden;
+}
+
+.css-10ffrec>div:first-child>div:first-child>div:first-child>div {
+    @apply py-[12px];
+}
+
+/*border styles for fields and states*/
+.css-10ffrec>div:first-child> :first-child> :first-child> :last-child {
+    @apply !border-grey-300 border border-solid !p-[12px] !rounded;
+}
+
+
+.css-10ffrec>div:first-child> :first-child> :first-child> :last-child:hover {
+    @apply !border-primary-light !shadow-none;
+
+}
+
+.css-10ffrec>div:first-child> :first-child> :first-child> :last-child:focus,
+.css-10ffrec>div:first-child> :first-child> :first-child> :last-child:focus-within {
+    @apply !border-primary !shadow-none !text-grey-700;
+
+}
+
+.css-10ffrec:hover,
+.css-10ffrec:focus,
+.css-10ffrec:focus-within {
+    @apply !shadow-none;
+}
+
+/*Labels*/
+.css-1rcf50h {
+    @apply !text-14/20 text-grey-700 !font-heading-normal;
+}
+
+.pt-2\.5 {
+    @apply !pt-48;
+}
+
+/*calendar*/
+.css-1rhbn8y {
+    @apply !pt-48
+}
+
+.css-1sg87no {
+    @apply !capitalize;
+}
+
+.css-1cm291v {
+    @apply !uppercase !text-primary !text-14/20;
+}
+
+
+.css-bx5vcy,
+.css-1qay76h,
+.css-1s6t53j,
+.css-q2ws8s {
+    @apply !text-14/20;
+}
+
+.css-7t8d9c,
+.css-1m50835 {
+    @apply !h-56 !w-152;
+}
+
+
+/*when hitting X on each field*/
+.css-12kym1f {
+    @apply !mb-40;
+}
+
+.css-12kym1f:hover,
+.css-12kym1f:focus,
+.css-12kym1f:focus-within {
+    @apply !shadow-none;
+}
+
+
+
+
+/*disclamer*/
+
+div.flex.flex-wrap.w-full.flex.flex-col.justify-end.md\:justify-start.css-0 {
+    @apply !grid;
+}
+
+.css-v8qn3g {
+    @apply !row-span-full !pt-0;
+}
+
+/*Closing X btn*/
+.css-pibjr6 {
+    @apply !bg-primary !rounded-full !text-grey-75 !-right-16 !top-24 !shadow-none !text-24/32 !h-[52px] !w-[52px] absolute p-0;
+}
+
+.css-pibjr6:hover {
+    @apply !bg-primary-dark !shadow-none;
+}
+
+.css-pibjr6:active {
+    @apply !bg-primary !outline-primary !outline-1 !outline-offset-2 !shadow-none;
+}
+
+.css-pibjr6:focus {
+    @apply !bg-primary-dark outline-primary outline-1 !shadow-none;
+}

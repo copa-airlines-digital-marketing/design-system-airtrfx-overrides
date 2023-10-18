@@ -1,0 +1,120 @@
+[data-test="card-container"]>div {
+    @apply rounded-2xl;
+}
+
+/*Origin*/
+p[data-test="origin-text"] {
+    @apply font-heading font-heading-medium !text-18/24 !text-primary;
+}
+
+/* to */
+div[data-test="card-container"] div>div:nth-child(2)>div span {
+    @apply font-heading font-heading-medium !text-18/24 !text-primary;
+}
+
+/*Destination*/
+div[data-test="card-container"] div>div:nth-child(2)>div span {
+    @apply font-heading font-heading-medium !text-18/24 !text-primary;
+}
+
+
+/*Departing date*/
+div[data-test="departing-text"] {
+    @apply font-heading-normal text-center text-grey-700;
+}
+
+/*Last Seen*/
+div[data-test="last-seen"] {
+    @apply hidden;
+}
+
+/*Pricing*/
+div[data-test="card-container"]>div>div>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2) {
+    @apply font-heading font-[800] text-primary text-32/40;
+}
+
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2) {
+    @apply font-heading font-[800] text-primary text-32/40;
+}
+
+/*FROM pricing*/
+div[data-test="card-container"]>div>div>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(1) {
+    @apply text-grey-700;
+}
+
+/*Journey Type Section*/
+div[data-test="card-container"]>div>div>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(4) {
+    @apply mb-8;
+}
+
+/*Journey Type */
+div[data-test="card-container"]>div>div>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(4)>div {
+    @apply mb-16 text-grey-700;
+}
+
+
+/*Book Now button states*/
+div[data-test="card-container"] button,
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(2) button {
+
+    @apply bg-transparent text-primary rounded-full w-auto h-auto py-8 px-24 text-14/20 border-primary my-0 mx-auto;
+
+}
+
+div[data-test="card-container"] button:hover,
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(2) button:hover {
+
+    @apply bg-primary text-grey-0 rounded-full w-auto h-auto py-8 px-24 text-14/20 border-primary my-0 mx-auto;
+
+}
+
+div[data-test="card-container"] button:focus,
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(2) button:focus {
+
+    @apply bg-primary text-grey-0 rounded-full w-auto h-auto py-8 px-24 text-14/20 border-grey-0 my-0 mx-auto outline outline-primary outline-1;
+
+}
+
+
+/*View more button states*/
+button[data-test="view-more"] {
+
+    @apply bg-primary text-grey-0 rounded-full w-auto h-auto py-8 px-24 text-14/20 border-primary my-0 mx-auto;
+
+}
+
+button[data-test="view-more"]:hover {
+
+    @apply bg-primary-ultradark text-grey-0 rounded-full w-auto h-auto py-8 px-24 text-14/20 border-primary my-0 mx-auto;
+
+}
+
+button[data-test="view-more"]:focus {
+
+    @apply bg-primary-ultradark text-grey-0 rounded-full w-auto h-auto py-8 px-24 text-14/20 border-grey-0 my-0 mx-auto outline outline-primary-ultradark outline-1;
+
+}
+
+
+
+/*Grid setting for mobile*/
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div {
+    @apply grid grid-rows-[auto_auto_32px] mt-24 mb-16;
+
+}
+
+/*From mobile*/
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(1) {
+    @apply row-[2] justify-self-end;
+
+}
+
+/*Pricing mobile*/
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2) {
+    @apply row-[3] justify-self-end
+}
+
+/*Journey type*/
+.slider li>div div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(4) {
+    @apply row-[1] justify-end
+}

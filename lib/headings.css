@@ -1,0 +1,20 @@
+body #__next .FareTitleHeader h1 {
+  @apply text-primary font-heading-medium font-heading !text-display-normal sm:!text-display-normal-sm md:!text-display-normal-md lg:!text-display-normal-lg;
+}
+
+body #__next .FareTitleHeader button {
+  @apply text-primary-light font-heading-medium font-heading !text-display-normal sm:!text-display-normal-sm md:!text-display-normal-md lg:!text-display-normal-lg;
+}
+
+body #__next .DestinationRoutes h2,
+body #__next .CustomPricingWidget h2,
+body #__next .RelatedRoutes h2,
+body #__next .LocationContent h2,
+body #__next .FareMonthlyHistogram h2,
+body #__next .Weather h2 {
+  @apply text-primary-dark font-heading-bold font-heading text-h2 sm:text-h2-sm md:text-h2-md lg:text-h2-lg;
+}
+
+body .carrusel-articulo-lenyenda h3{
+  @apply font-heading text-grey-75 font-heading-medium text-h3 lg:text-h3-lg;
+}

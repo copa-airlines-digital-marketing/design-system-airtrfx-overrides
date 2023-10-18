@@ -1,0 +1,11 @@
+body #__next .BreadCrumbs a {
+  @apply text-primary-light underline text-16/24 font-body-medium font-sans;
+}
+
+body #__next .BreadCrumbs span {
+  @apply text-16/24 text-grey-600 font-sans;
+}
+
+body #__next .BreadCrumbs i {
+  @apply text-20/24 text-grey-400 w-24 px-0 mx-8;
+}

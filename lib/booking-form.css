@@ -1,0 +1,117 @@
+body .css-1ruuaxs {
+    @apply text-primary;
+}
+
+body .css-hp7dpa {
+    @apply rounded-b-2xl;
+}
+
+[data-em-cmp="fare-title--header"] div {
+    @apply rounded-t-2xl;
+}
+
+/* Trip options selectors settings*/
+body .css-14fav7f {
+    @apply border-primary;
+}
+
+body .css-ktk1dy {
+    @apply text-primary;
+}
+
+body .css-ffwh0d {
+    @apply text-primary;
+}
+
+/* fields settings start*/
+body .css-17tsgs2 {
+    @apply shadow-none;
+}
+
+body .css-17tsgs2:hover,
+body .css-14fav7f:hover {
+    @apply border-primary-light rounded shadow-none;
+}
+
+body .css-17tsgs2:focus,
+body .css-14fav7f:focus {
+    @apply border-primary rounded shadow-none;
+}
+
+/* date fields*/
+body .css-1x78x49 {
+    @apply border-grey-300;
+}
+
+body .css-1x78x49:hover {
+    @apply border-primary rounded shadow-none;
+}
+
+
+/*Destination and origin shadow at options */
+body .css-1tik8ai {
+    @apply shadow-medium
+}
+
+
+/*Inside calendar*/
+#headlessui-popover-panel-8 .css-n1pbsj {
+    @apply text-primary;
+}
+
+#headlessui-popover-panel-8 .css-3iuku8 {
+    @apply uppercase text-primary text-12/16;
+
+}
+
+
+body[data-em-cmp="fare-title--header"]
+/*days at calendar*/
+
+#headlessui-popover-panel-8 .css-2gihgq:hover {
+    @apply border-primary;
+}
+
+
+#headlessui-popover-panel-8 .css-l8abib,
+#headlessui-popover-panel-8 .css-1j0fjvw {
+    @apply bg-primary rounded-full;
+}
+
+
+#headlessui-popover-panel-8 .css-1ks3bc2 {
+    @apply bg-backgound-lightblue;
+
+}
+
+body .css-1mukg8h {
+    @apply border-primary rounded-full bg-primary text-grey-0;
+}
+
+body .css-1mukg8h:hover {
+    @apply bg-primary-ultradark border-l-primary text-grey-0;
+}
+
+/*Removes borders and edit texts in selectors*/
+.css-h49acp{
+    @apply !border-none !text-primary !font-body-medium;
+}
+
+.css-h49acp:hover{
+    @apply !bg-[#EFF5FF] !rounded-full !border-none !outline-none !shadow-none;
+}
+
+.css-8fdib0{
+    @apply !border-none !text-primary !font-body-medium;
+}
+
+.css-8fdib0:hover{
+    @apply !bg-[#EFF5FF] !rounded-full !border-none !outline-none !shadow-none;
+}
+
+[data-att="f1_origin"] .css-1rcf50h{
+    @apply !hidden;
+}
+[data-att="f1_destination"] .css-1rcf50h{
+    @apply !hidden;
+}

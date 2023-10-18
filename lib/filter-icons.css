@@ -1,0 +1,8 @@
+div[data-test="budget-icon"] {
+    @apply bg-primary text-grey-0;
+}
+
+i[data-test="destination-icon"],
+i[data-test="origin-icon"] {
+    @apply text-primary;
+}

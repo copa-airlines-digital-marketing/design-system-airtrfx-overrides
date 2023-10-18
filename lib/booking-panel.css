@@ -1,0 +1,37 @@
+.FlightsBooking > div > div {
+ @apply !bg-primary !bg-none;
+ }
+
+ .FlightsBooking .Bq{
+    @apply !mb-[472px] lg:!mb-[196px] !pt-24 !pb-96 ;
+ }
+
+body #__next .FareTitleHeader button{
+    @apply !text-grey-300 !text-h1;
+}
+
+body #__next .FareTitleHeader h1 {
+   @apply !text-grey-100 font-heading-bold font-heading !text-display-small sm:!text-display-normal-sm md:!text-display-normal-md lg:!text-h3-lg ;
+ }
+
+ .css-1wdtt5z{
+@apply  !rounded-lg !w-full !container !absolute !shadow-large ;
+ }
+
+ [data-em-cmp=fare-title--header] div{
+    @apply !bg-transparent !pb-8;
+ }
+
+
+.FlightsBooking [data-att="disclaimer"]{
+   @apply !hidden;
+}
+
+div[data-em-cmp="flights-booking"] .css-1wdtt5z >div {
+   
+   @apply gap-8 !justify-evenly;
+}
+
+.css-ayg09x{
+   @apply !button !button-circle !h-32;
+}

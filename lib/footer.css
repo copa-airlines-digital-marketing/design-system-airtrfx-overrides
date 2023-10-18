@@ -1,0 +1,28 @@
+footer .footer>div:first-child {
+  @apply bg-grey-100 border-0;
+}
+
+footer .footer>div:first-child>div>div:first-child h5 {
+  @apply text-primary normal-case font-heading font-heading-bold text-h3 lg:text-h3-lg;
+}
+
+footer .footer>div:first-child>div>div:first-child a {
+  @apply text-primary-light font-sans text-16/24 max-w-prose;
+}
+
+footer .footer>div:first-child>div>div:first-child div {
+  @apply max-w-prose;
+}
+
+
+footer .footer>div:first-child>div>div:last-child {
+  @apply lg:border-l lg:border-grey-300;
+}
+
+footer .footer>div:first-child>div>div:last-child>div:first-child a {
+  @apply border border-grey-600 bg-transparent border-solid text-grey-600 py-8 px-16 square-auto;
+}
+
+footer .footer>div:first-child>div>div:last-child>div:first-child svg {
+  @apply square-16;
+}

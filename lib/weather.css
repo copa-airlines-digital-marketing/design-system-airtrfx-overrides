@@ -1,0 +1,82 @@
+.Weather > section > div > div {
+  @apply sm:grid sm:grid-cols-2 sm:grid-rows-[auto_auto_auto];
+}
+
+.weather_title {
+  @apply row-start-1 col-start-1 self-center;
+}
+
+.weather_title + div {
+  @apply flex-col items-start justify-start row-start-1 col-start-2 justify-self-end gap-8 py-0;
+}
+
+.weather_title ~ p {
+  @apply my-0 font-sans text-12/16 text-grey-600;
+}
+
+.weather_title ~ div:nth-child(4) {
+  @apply row-start-2 col-start-1 col-end-3 gap-24 my-24 mb-16;
+}
+
+.weather_title + div label {
+  @apply text-body-2 text-grey-700 p-0 font-sans;
+}
+
+.weather_title + div label + div {
+  @apply w-full;
+}
+
+.weather_title + div > label + div > div > div {
+  @apply text-16/24 font-sans text-grey-700 rounded-[4px] hover:border-primary-light disabled:text-grey-500 disabled:bg-grey-200 disabled:cursor-not-allowed;
+}
+
+.weather_title + div > label + div > div > div:nth-child(2) {
+  @apply border-primary;
+}
+
+.weather_title + div > label + div > div i {
+  @apply hidden;
+}
+
+.weather_title + div > label + div > div > div:first-of-type > div {
+  @apply p-[12px] px-[12px] flex justify-between gap-8;
+}
+
+.weather_title
+  + div
+  > label
+  + div
+  > div
+  > div:first-of-type
+  > div
+  > div:last-child {
+  @apply content-select;
+}
+
+.weather_title + div > label + div > div > div:first-of-type > div {
+  @apply p-[12px] px-[12px] flex justify-between gap-8;
+}
+
+.weather_title ~ div:nth-child(4) > div {
+  @apply mx-0 shadow-none rounded-2xl border border-grey-300 bg-backgound-paper;
+}
+
+.weather_title ~ div:nth-child(4) > div > div {
+  @apply bg-transparent;
+}
+
+.weather_title ~ div:nth-child(4) > div i {
+  @apply text-secondary;
+}
+
+.Weather .weather__day {
+  @apply text-primary text-h3 lg:text-h3 font-heading font-heading-bold;
+}
+
+.Weather .weather__temperature {
+  @apply text-grey-700 text-16/24 font-sans font-body-normal;
+}
+
+.Weather .weather__date {
+  @apply text-12/16;
+}
