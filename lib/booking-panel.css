@@ -27,11 +27,26 @@ body #__next .FareTitleHeader h1 {
    @apply !hidden;
 }
 
-div[data-em-cmp="flights-booking"] .css-1wdtt5z >div {
-   
-   @apply gap-8 !justify-evenly;
+.css-ayg09x{
+   @apply !button !button-circle !h-32 content-center;
 }
 
-.css-ayg09x{
-   @apply !button !button-circle !h-32;
+.css-1n3pmcg{
+   @apply !border-none;
+}
+
+.css-1n3pmcg{
+   @apply !border-b-2 border-b-grey-200;
+}
+
+.css-1n3pmcg:focus{
+
+   @apply border-b-primary-ultralight bg-primary-light;
+
+}
+
+
+
+.css-1wdtt5z > div:nth-child(2) > div:nth-child(1) > div:nth-child(1){
+   @apply border-b-grey-500;
 }
