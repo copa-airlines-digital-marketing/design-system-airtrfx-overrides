@@ -3,7 +3,7 @@
  }
 
  .FlightsBooking .Bq{
-    @apply !mb-[472px] lg:!mb-[196px] !pt-24 !pb-96 ;
+    @apply xs:!mb-[384px] sm:!mb-[324px] md:!mb-[274px] md-2:!mb-[102px] lg:!mb-[196px] !pt-24 !pb-96 ;
  }
 
 body #__next .FareTitleHeader button{
@@ -18,7 +18,7 @@ body #__next .FareTitleHeader h1 {
 @apply  !rounded-lg !w-full !container !absolute !shadow-large ;
  }
 
- [data-em-cmp=fare-title--header] div{
+.A{
     @apply !bg-transparent !pb-8;
  }
 
@@ -44,8 +44,6 @@ body #__next .FareTitleHeader h1 {
    @apply border-b-primary-ultralight bg-primary-light;
 
 }
-
-
 
 .css-1wdtt5z > div:nth-child(2) > div:nth-child(1) > div:nth-child(1){
    @apply border-b-grey-500;

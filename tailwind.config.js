@@ -13,7 +13,10 @@ module.exports = {
       },
       colors:{
         headerBottomBar:'rgb(255,255,255,0.32)',
-      }
+      },
+      screens: {
+        'md-2': {'min': '992px'},
+      },
     },
   },
   plugins: [],
