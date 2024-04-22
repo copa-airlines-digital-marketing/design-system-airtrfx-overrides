@@ -50,5 +50,8 @@
 /**Booking Panel new additions*/
 @import "../lib/booking-panel.css";
 
+/**Styles for Best Fare Finder*/
+@import "../lib/bestFareFinder.css";
+
 /**modal box
 @import "../lib/modal-box.css";*/
