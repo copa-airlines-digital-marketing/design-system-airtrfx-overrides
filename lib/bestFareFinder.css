@@ -1,7 +1,6 @@
 .Campaign.lg\:max-w-6xl {
-    @apply w-full;
+  @apply max-w-full !important;
 }
-
 .Campaign .py-4 {
    @apply !py-0;
   }
