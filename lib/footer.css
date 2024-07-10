@@ -14,15 +14,6 @@ footer .footer>div:first-child>div>div:first-child div {
   @apply max-w-prose;
 }
 
-
-footer .footer>div:first-child>div>div:last-child {
-  @apply lg:border-l lg:border-grey-300;
-}
-
-footer .footer>div:first-child>div>div:last-child>div:first-child a {
-  @apply border border-grey-600 bg-transparent border-solid text-grey-600 py-8 px-16 square-auto;
-}
-
 footer .footer>div:first-child>div>div:last-child>div:first-child svg {
   @apply square-16;
 }

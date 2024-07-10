@@ -8,3 +8,9 @@
   .Campaign .px-3 {
     @apply !px-0;
   }
+
+
+  h1#histoTitle{
+    @apply text-primary font-heading-medium font-heading !text-display-normal sm:!text-display-normal-sm md:!text-display-normal-md lg:!text-display-normal-lg;
+  }
+  
